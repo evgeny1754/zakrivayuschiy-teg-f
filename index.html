@@ -20,7 +20,7 @@
   <body class="page">
     <header class="header">
       <div class="header__logo-group">
-        <a href="#" class="header__logo uppercase">&lt;/html&gt;</a>
+        <a class="header__logo uppercase">&lt;/html&gt;</a>
         <h1 class="header__title uppercase">закрывающий тег</h1>
       </div>
       <nav class="theme-menu header__theme-menu">
@@ -58,7 +58,6 @@
       </nav>
     </header>
     <main class="main">
-      <section class="main__section">
         <ul class="main__card-list">
           <li class="main__card-list-item">
             <h2 class="card__title">
@@ -613,7 +612,6 @@
             </div>
           </li>
         </ul>
-      </section>
       <div class="save-container">
         <button
           class="main__card-button save-container__save-button"
@@ -622,7 +620,7 @@
           aria-controls="dialog-id"
         >
           <svg class="save-button__diskette-icon contrast">
-            <use href="./svg/Floppy (1).svg#diskette" />
+            <use href="./svg/floppy2.svg#diskette" />
           </svg>
           <span class="button__text contrast">Сохранить на память</span>
         </button>
@@ -631,7 +629,7 @@
         <form class="form">
           <div class="form__save-container">
             <svg viewBox="0 0 39 39" class="form__diskette-icon contrast">
-              <use href="./svg/Floppy (1).svg#diskette" />
+              <use href="./svg/floppy2.svg#diskette" />
             </svg>
             <span class="button__text form__text uppercase"
               >Вставьте дискету, чтобы продолжить</span
@@ -639,7 +637,7 @@
           </div>
           <button
             class="main__card-button form__button"
-            type="button"
+            type="submit"
             onclick="window['dialog-id'].close()"
           >
             <span class="button__text contrast uppercase">ок</span>

@@ -3,8 +3,8 @@
 :root {
   --main-font: Inter-Variable, sans-serif;
   --accent-font: PressStart2P, fantasy;
-  --card-title-font-weight: 400;
-  --card-text-font-weight: 700;
+  --card-title-font-weight: 700;
+  --card-text-font-weight: 400;
   --background-color: #FFFFFF;
   --accent-color: #000000;
   --stripes-gradient: #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px;
